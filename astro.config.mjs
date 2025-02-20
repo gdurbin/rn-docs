@@ -21,18 +21,17 @@ export default defineConfig({
           autogenerate: { directory: "rgamecore" },
         },
         {
+          label: "Resources",
+          autogenerate: { directory: "resources" },
+        },
+        {
           label: "Attribution",
           items: [{ label: "Attribution", link: "rgamecore/attribution" }],
         },
-        {
-          label: "Resources",
-          items: [{ label: "GameDev Resources", link: "rgamecore/resources" }],
-        },
       ],
-      disable404Route: true,
-      components: {
-        SiteTitle: "@components/SiteTitleCustom.astro",
-      },
+      //   components: {
+      //     SiteTitle: "@components/SiteTitleCustom.astro",
+      //   },
     }),
   ],
 });
