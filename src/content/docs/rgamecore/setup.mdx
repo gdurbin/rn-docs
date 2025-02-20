@@ -1,0 +1,57 @@
+---
+title: Setup
+description: Setup for RGameCore Plugin.
+sidebar:
+  label: Setup
+prev:
+  link: /rgamecore/download
+  label: Download RGameCore
+---
+
+import { Steps } from "@astrojs/starlight/components";
+
+## Project Settings
+
+RGameCore requires the following setup in your Unreal Project Settings:
+
+### `Maps & Modes`
+
+<Steps>
+
+1. Set `Default GameMode` to `GM_RBase`.
+2. Set `Game Instance Class` to `GI_RBase`.
+
+</Steps>
+
+### `Common Input Settings`
+
+<Steps>
+
+1. Set `Input Data` to `CommonUIInputData_Generic`.
+2. Go to `Platform Input` > `Windows` > `Default`
+   - Set `Default Input Type` to `Gamepad`.
+   - Set `Default Gamepad Name` to `Generic`.
+   - Add the following `Controller Data` elements:
+     - `CommonInput_Gamepad_XSX`
+     - `CommonInput_Gamepad_PS5`
+     - `CommonInput_KeyboardMouse`
+
+</Steps>
+
+### `Input`
+
+<Steps>
+
+1. Set `Allow Out Of Focus Device Input` to `true`.
+2. Set `Enable Enhanced Input Support` to `true`.
+
+</Steps>
+
+### `General Settings`
+
+<Steps>
+
+1. Go To `Default Classes`.
+1. Set `Game Viewport Client Class` to `CommonGameViewportClient`.
+
+</Steps>
