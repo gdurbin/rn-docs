@@ -26,7 +26,7 @@ export default defineConfig({
         },
         {
           label: "Attribution",
-          items: [{ label: "Attribution", link: "rgamecore/attribution" }],
+          items: [{ label: "RGameCore", link: "rgamecore/attribution" }],
         },
       ],
       //   components: {
