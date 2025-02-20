@@ -9,7 +9,7 @@ export default defineConfig({
     starlight({
       title: "RADIANTNERD DOCS",
       social: {
-        github: "https://github.com/gdurbin",
+        github: "https://github.com/gdurbin/rn-docs",
         patreon: "https://patreon.com/radiantnerd",
         "x.com": "https://x.com/radiant_nerd",
         youtube: "https://youtube.com/@radiantnerd",
