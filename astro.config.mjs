@@ -8,6 +8,10 @@ export default defineConfig({
   integrations: [
     starlight({
       title: "RADIANTNERD DOCS",
+      logo: {
+        src: "@/assets/radiantnerd-logo.svg",
+        replacesTitle: true,
+      },
       social: {
         github: "https://github.com/gdurbin/RGameCorePlug",
         patreon: "https://patreon.com/radiantnerd",
