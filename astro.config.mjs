@@ -4,7 +4,7 @@ import starlight from "@astrojs/starlight";
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://rndocs.pages.dev/rgamecore",
+  site: "https://docs.radiantnerd.com",
   integrations: [
     starlight({
       title: "RADIANTNERD DOCS",
@@ -17,7 +17,7 @@ export default defineConfig({
         patreon: "https://patreon.com/radiantnerd",
         "x.com": "https://x.com/radiant_nerd",
         youtube: "https://youtube.com/@radiantnerd",
-        email: "mailto:radiantnrd@gmail.com",
+        email: "mailto:admin@radiantnerd.com",
       },
       sidebar: [
         {
