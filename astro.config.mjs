@@ -9,6 +9,7 @@ export default defineConfig({
 	integrations: [
 		starlight({
 			title: "RADIANTNERD DOCS",
+			favicon: "/favicon.png",
 			logo: {
 				src: "@/assets/radiantnerd-logo.svg",
 				replacesTitle: true,

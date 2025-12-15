@@ -2,10 +2,15 @@
 title: Download
 description: Download RGameAnim.
 template: doc
+sidebar:
+  hidden: false
+  order: 2
 ---
 
 import { LinkButton } from "@astrojs/starlight/components";
 import { Aside } from "@astrojs/starlight/components";
+import { Icon } from "@astrojs/starlight/components";
+import YouTube from "@/components/YouTube.astro";
 
 ### RGameAnim
 
@@ -19,9 +24,23 @@ Game Animation Sample from Epic Games as a plugin.
 	Download RGameAnim
 </LinkButton>
 
-<Aside type="caution" title="Epic Games License Terms">
-	- UE-Only Content - Licensed for Use Only with Unreal Engine-based Products
-	<a href="https://www.fab.com/eula" target="_blank">
-		- Epic Games Standard License
-	</a>
+<Aside type="caution" icon="seti:license" title="Epic Games License Terms">
+	<ul>
+		<li class="not-content">
+			UE-Only Content - Licensed for Use Only with Unreal Engine-based Products
+		</li>
+		<li>
+			<a href="https://www.fab.com/eula" target="_blank">
+				Epic Games Standard License
+			</a>
+		</li>
+		<li>
+			<a
+				href="https://www.fab.com/listings/880e319a-a59e-4ed2-b268-b32dac7fa016"
+				target="_blank"
+			>
+				Epic Games Gameplay Animation Sample
+			</a>
+		</li>
+	</ul>
 </Aside>

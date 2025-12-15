@@ -10,14 +10,19 @@ hero:
 ---
 
 import { LinkCard } from "@astrojs/starlight/components";
+import { Card } from "@astrojs/starlight/components";
 import { Aside } from "@astrojs/starlight/components";
 
-<LinkCard title="RGameAnim Plugin" href="/rgameanim" />
+<Card title="RGameAnim Plugin">
+	Game Animation Sample from Epic Games as a plugin.
+	<LinkCard title="RGameAnim Plugin" href="/rgameanim" />
+</Card>
 
 <Aside type="tip" title="Support Development">
 If you find my plugins and projects helpful, please consider supporting me on Patreon or Ko-fi. Your support helps me continue to develop and maintain these projects.
 
-- [Patreon](https://www.patreon.com/radiantnerd)
+{/* - [Patreon](https://www.patreon.com/radiantnerd) */}
+
 - [Ko-fi](https://ko-fi.com/gwdurbin)
 
 </Aside>

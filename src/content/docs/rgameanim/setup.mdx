@@ -3,6 +3,8 @@ title: Setup
 description: Setup for RGameAnim Plugin.
 sidebar:
   label: Setup
+  hidden: false
+  order: 3
 prev:
   link: /rgameanim/download
   label: Download
@@ -61,7 +63,7 @@ export const fileNameDefaultEngineIni = "(ProjectName)/Config/DefaultEngine.ini"
 
 <Steps>
 
-1. Add the following `GameplayTags` to the projects `(ProjectName)/Config/DefaultGameplayTags.ini` file.
+2. Add the following `GameplayTags` to the projects `(ProjectName)/Config/DefaultGameplayTags.ini` file.
 
 </Steps>
 
@@ -111,3 +113,11 @@ export const fileNameDefaultGameplayTagsIni =
 />
 
 This is the easiest way I found to make this work since Unreal Engine will not load the plugin `.ini` file.
+
+### `GM_Sandbox`
+
+<Steps>
+
+3. Update Project Settings `Project/Maps & Modes/Default GameMode` to `GM_Sandbox`. You can also just update the `World Settings` tab `GameMode Override` for a specific level/map.
+
+</Steps>
