@@ -7,12 +7,10 @@ sidebar:
   order: 2
 ---
 
-import { LinkButton } from "@astrojs/starlight/components";
-import { Aside } from "@astrojs/starlight/components";
-import { Icon } from "@astrojs/starlight/components";
+import { LinkButton, Aside, Icon } from "@astrojs/starlight/components";
 import YouTube from "@/components/YouTube.astro";
 
-### RGameAnim
+## RGameAnim
 
 Game Animation Sample from Epic Games as a plugin.
 
@@ -21,8 +19,15 @@ Game Animation Sample from Epic Games as a plugin.
 	target="_blank"
 	icon="download"
 >
-	Download RGameAnim
+	Download
 </LinkButton>
+
+<Aside title="Compatibility" icon="setting">
+	Supported Unreal Engine Versions
+	<ul>
+		<li>5.7</li>
+	</ul>
+</Aside>
 
 <Aside type="caution" icon="seti:license" title="Epic Games License Terms">
 	<ul>
